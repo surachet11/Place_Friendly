@@ -22,6 +22,21 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Places_Friendly</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Places_Friendly</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Places_Friendly</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Places_Friendly</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Places_Friendly</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -34,6 +49,8 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
